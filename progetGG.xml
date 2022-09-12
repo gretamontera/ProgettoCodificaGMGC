@@ -1,0 +1,719 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="progettogg.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+                <!--
+    Author: Greta Casula & Greta Montera
+    Date: 2022 Agosto 9
+    Title: Progetto Codifica-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<!-- dà informazioni sul file, non sul testo originale-->
+			<titleStmt>
+				<title xml:lang="fr" type="main"> Trois premières conférences à l'Universitè </title>
+				<!-- main ovvero titolo originale-->
+				<title xml:lang="it" type="alt"> Le prime tre conferenze all'università </title>
+				<!-- alt ovvero titolo tradotto-->
+				<author ref="#FDS"> Ferdinand De Saussure </author>
+				<respStmt>
+					<resp> Traduzione di </resp>
+					<!--responsabilità per il lavoro del testo in digitale-->
+					<name xml:id="EF"> Emanuele Fadda </name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>Edizione digitale 
+					
+					
+					
+					<date when="2022"> agosto 2022 </date>
+				</edition>
+				<respStmt>
+					<resp> Codifica di </resp>
+					<name xml:id="GC"> Greta Casula </name>
+					<name xml:id="GM"> Greta Montera </name>
+				</respStmt>
+				<respStmt>
+					<resp>Progetto coordinato da</resp>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher> Università di Pisa</publisher>
+				<pubPlace> Pisa, PI </pubPlace>
+				<address>
+					<postCode>56127</postCode>
+					<name>Italia</name>
+				</address>
+				<availability status="free">
+					<p> Opera ad accesso libero </p>
+				</availability>
+				<date when="2022"> 2022 </date>
+			</publicationStmt>
+			<sourceDesc>
+				<!-- descrizione della risorsa (il foglio)-->
+				<msDesc>
+					<!-- descrizione del manoscritto-->
+					<msIdentifier>
+						<!-- identificatore manoscritto-->
+						<placeName>
+							<settlement> Ginevra </settlement>
+							<!-- contiene il nome di una sede o posto etc-->
+							<region key="SW" type="state">Svizzera</region>
+							<!-- SW Switzerland-->
+						</placeName>
+						<repository ref="https://archives.bge-geneve.ch/" role="library"> Biblioteca di Ginevra </repository>
+						<!-- link al nome dell'istituzione che possiede il manoscritto, con role si indica il tipo di istituzione-->
+						<idno> BGE Ms.fr.3951/1.1-3 </idno>
+						<!-- Id manoscritto-->
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<!-- il contenuto del manoscritto-->
+							<title> Trois premières conférences à l'Universitè </title>
+							<title type="main" xml:lang="fr"> Trois premières conférences à l'Universitè</title>
+							<title type="desc, alt" xml:lang="it"> Le prime tre conferenze all'università </title>
+							<!-- attributo main ovvero il titolo originale, desc ovvero indica la natura descrittiva del titolo, alt ovvero titolo tradotto-->
+							<author> Ferdinand De Saussure, </author>
+							<!-- dichiarazione di responsabilità dell'autore del lavoro-->
+							<textLang mainLang="fr">Scritto in francese.</textLang>
+							<docImprint> Ginevra	
+								
+								
+								<docDate>1891</docDate>
+							</docImprint>
+						</msItem>
+					</msContents>
+					<!-- fine descrizione delle generalità del documento-->
+					<physDesc>
+						<!-- descrizione fisica del manoscritto-->
+						<objectDesc>
+							<supportDesc>
+								<!-- descrizione del materiale fisico-->
+								<support> Fogli di 
+								    
+									
+									
+									<material> carta </material>
+								</support>
+								<extent> 30 + 15 + 22 pagine + 1 foglietto </extent>
+								<condition> <p> Il manoscritto si presenta in buone condizioni, nonostante i segni del tempo. 
+                                    Lo si nota sia dal colore ingiallito delle pagine, ma anche dai bordi consumati o mancanti in alcuni punti. 
+                                    Il testo è comunque ben visibile, nonostante l'inchiostro sia a tratti sbiadito. 
+                                    In alcuni fogli ci sono cancellature, annotazioni a lato, correzioni.</p> 
+                                    </condition>
+							</supportDesc>
+							<layoutDesc>
+								<!-- descrizione dell'impaginazione-->
+								<layout columns="1" ruledLines="30">
+									<p> Le pagine si alternano tra quelle vuote e quelle che hanno in media 30 righe </p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<p>Scritto da una sola mano, quella dell'autore.</p>
+						</handDesc>
+						<typeDesc>
+							<p> Scritto in corsivo, non sempre di facile comprensione poichè si tratta di appunti scritti a mano. 
+                            Alcune parole sono sottolineate e altre cancellate, 
+                            ci sono delle note a margine e alcune parole sono scritte con colori diversi come rosso e blu. </p>
+						</typeDesc>
+					</physDesc>
+					<history>
+						<!-- storia del manoscritto-->
+						<origin notBefore="1891">
+							<p> Il manoscritto è stato scritto da 
+								
+								
+								
+								<persName> Ferdinand de Saussure </persName>. Sono gli appunti delle
+                            prime tre conferenze che tenne 
+								
+								
+								
+								<placeName>all'Università Di Ginevra </placeName>
+                            per il corso di fonetica del greco e del latino del 
+								
+								
+								
+								<date when="13/11/1891">13 novembre 1891</date>  
+							
+							
+							
+							</p>
+						</origin>
+						<acquisition>
+							<!-- informazioni sul processo e l'acquisizione del documento da parte dell'istituzione-->
+							<p> Il documento è stato acquisito dalla 
+								
+								
+								
+								<placeName> Bibliothèque de Genève </placeName>
+							</p>
+						</acquisition>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<!-- descrizione dettagliato di aspetti non bibliografici del testo, come lingua, condizioni-->
+			<langUsage>
+				<language ident="fr">Francese</language>
+			</langUsage>
+			<textDesc>
+				<channel mode="w" />
+				<!-- mezzo tramite cui è trasmesso, w written-->
+				<constitution type="single"/>
+				<!--descrive la completezza di un testo-->
+				<derivation type="original"/>
+                <!--descrive il contesto in cui va inteso il testo-->
+                <domain type="education"/>
+				<!-- di sua proprietà-->
+				<factuality type="fact"/>
+				<!-- se il testo è più o meno inventato-->
+				<interaction type="partial" active="singular" passive="group"/>
+				<!-- conferenza quindi non è un monologo, singular cioè lui che parla a un gruppo-->
+				<preparedness type="revised"/>
+				<!-- bozze e materiale revisionato prima della presentazione-->
+				<purpose type="inform" degree="high"/>
+				<!-- scopo del testo e livello-->
+			</textDesc>
+			<settingDesc>
+				<!-- contesto in cui si trovano le informazioni principali-->
+				<setting>
+					<p> <name> 
+                    Testi registrati nella Biblioteca di 
+						
+						
+						<placeName>Ginevra</placeName>, 
+						
+						
+						<country>Svizzera</country>.
+                    
+					
+					</name> 
+					<time>
+						<date when="1891-11">Novembre 1891</date>
+					</time>
+                    </p>
+				</setting>
+			</settingDesc>
+		</profileDesc>
+        </teiHeader>
+        <facsimile>
+        <surface>
+			<graphic url='15.jpeg' width='1392px' height='874px' />
+			<zone ulx="408" uly="50" lrx="474" lry="103" />
+			<!--numero pagina 15 in alto a sx:-->
+			<zone ulx="123" uly="71" lrx="583" lry="108" xml:id="p15_r1" />
+			<!-- 1-->
+			<zone ulx="498" uly="114" lrx="913" lry="137" xml:id="p15_r2" />
+			<!-- 2-->
+			<zone ulx="137" uly="153" lrx="592" lry="179" xml:id="p15_r3" />
+			<!-- 3-->
+			<zone ulx="514" uly="180" lrx="946" lry="206" xml:id="p15_r4" />
+			<!-- 4-->
+			<zone ulx="120" uly="219" lrx="576" lry="244" xml:id="p15_r5" />
+			<!-- 5-->
+			<zone ulx="502" uly="248" lrx="958" lry="266" xml:id="p15_r6" />
+			<!--6-->
+			<zone ulx="122" uly="285" lrx="600" lry="315" xml:id="p15_r7" />
+			<!--7	-->
+			<zone ulx="519" uly="312" lrx="971" lry="346" xml:id="p15_r8" />
+			<!--8-->
+			<zone ulx="129" uly="351" lrx="578" lry="376" xml:id="p15_r9" />
+			<!-- 9 -->
+			<zone ulx="404" uly="355" lrx="508" lry="424" xml:id="annotazione1sx"/>
+			<!-- annotazione 1 a sx-->
+			<zone ulx="509" uly="379" lrx="940" lry="401" xml:id="p15_r10" />
+			<!-- 10-->
+			<zone ulx="127" uly="421" lrx="603" lry="428" xml:id="p15_r11" />
+			<zone ulx="502" uly="427" lrx="982" lry="466" xml:id="p15_r12" />
+			<!--12-->
+			<zone ulx="123" uly="483" lrx="605" lry="497" xml:id="p15_r13" />
+			<zone ulx="504" uly="490" lrx="982" lry="521" xml:id="p15_r14" />
+			<!--14-->
+			<zone ulx="130" uly="539" lrx="605" lry="554" xml:id="p15_r15" />
+			<zone ulx="525" uly="553" lrx="985" lry="588" xml:id="p15_r16" />
+			<!--16-->
+			<zone ulx="147" uly="604" lrx="602" lry="611" xml:id="p15_r17" />
+			<zone ulx="430" uly="594" lrx="518" lry="672" xml:id="annotazione2sx"/>
+			<!-- annotazione 2 a sx-->
+			<zone ulx="516" uly="605" lrx="988" lry="645" xml:id="p15_r18" />
+			<!--18-->
+			<zone ulx="143" uly="642" lrx="609" lry="692" xml:id="p15_r19" />
+			<zone ulx="509" uly="673" lrx="990" lry="707" xml:id="p15_r20" />
+			<!--20-->
+			<zone ulx="187" uly="719" lrx="606" lry="731" xml:id="p15_r21" />
+			<zone ulx="502" uly="739" lrx="992" lry="760" xml:id="p15_r22" />
+			<!--22-->
+			<zone ulx="126" uly="770" lrx="607" lry="799" xml:id="p15_r23" />
+        </surface>
+        <surface>
+			<graphic url='imm44.png' width='1392px' height='874px' />
+			<zone ulx="433" uly="77" lrx="957" lry="764" />
+        </surface>
+        <surface>
+
+			<graphic url='imm46.png' width='630px' height='811px' />
+			<zone ulx="114" uly="46" lrx="603" lry="80" xml:id="p16_r1"/>
+			<zone ulx="409" uly="49" lrx="490" lry="103" xml:id="p16_r2"/>
+			<!-- simbolo sx 16-->
+			<zone ulx="123" uly="111" lrx="601" lry="135" xml:id="p16_r2.1"/>
+			<!-- 2.1-->
+			<zone ulx="490" uly="102" lrx="969" lry="136" xml:id="p16_r3"/>
+			<!-- 3-->
+			<zone ulx="127" uly="174" lrx="589" lry="195" xml:id="p16_r4"/>
+			<!-- 4-->
+			<zone ulx="490" uly="166" lrx="979" lry="202" xml:id="p16_r5"/>
+			<!-- 5-->
+			<zone ulx="132" uly="225" lrx="576" lry="243" xml:id="p16_r6"/>
+			<!-- 6-->
+			<zone ulx="495" uly="225" lrx="954" lry="254" xml:id="p16_r7"/>
+			<!-- 7-->
+			<zone ulx="122" uly="277" lrx="590" lry="294" xml:id="p16_r8"/>
+			<!-- 8-->
+			<zone ulx="499" uly="275" lrx="950" lry="300" xml:id="p16_r9"/>
+			<!-- 9-->
+			<zone ulx="132" uly="333" lrx="596" lry="353" xml:id="p16_r10"/>
+			<!-- 10-->
+			<zone ulx="518" uly="331" lrx="967" lry="356" xml:id="p16_r11"/>
+			<!-- 11-->
+			<zone ulx="131" uly="392" lrx="595" lry="411" xml:id="p16_r12"/>
+			<!-- 12 -->
+			<zone ulx="504" uly="444" lrx="961" lry="471" xml:id="p16_r13"/>
+			<!-- 13-->
+			<zone ulx="125" uly="420" lrx="600" lry="440" xml:id="p16_r14"/>
+			<!-- 14-->
+			<zone ulx="507" uly="502" lrx="959" lry="523" xml:id="p16_r15"/>
+			<!-- 15-->
+			<zone ulx="137" uly="481" lrx="600" lry="494" xml:id="p16_r16"/>
+			<!-- 16-->
+			<zone ulx="510" uly="524" lrx="977" lry="555" xml:id="p16_r17"/>
+			<!-- 17-->
+			<zone ulx="129" uly="532" lrx="600" lry="534" xml:id="p16_r18"/>
+			<!-- 18-->
+			<zone ulx="491" uly="576" lrx="975" lry="600" xml:id="p16_r19"/>
+			<!-- 19-->
+			<zone ulx="137" uly="575" lrx="600" lry="596" xml:id="p16_r20"/>
+			<!-- 20 -->
+			<zone ulx="518" uly="622" lrx="972" lry="654" xml:id="p16_r21"/>
+			<!-- 21-->
+			<zone ulx="140" uly="629" lrx="603" lry="646" xml:id="p16_r22"/>
+			<!-- 22 -->
+			<zone ulx="510" uly="679" lrx="969" lry="708" xml:id="p16_r23"/>
+			<!--23-->
+			<zone ulx="149" uly="681" lrx="597" lry="693" xml:id="p16_r24"/>
+			<!-- 24-->
+			<zone ulx="518" uly="719" lrx="975" lry="756" xml:id="p16_r25"/>
+			<!--25-->
+			<zone ulx="153" uly="730" lrx="595" lry="740" xml:id="p16_r26"/>
+			<!-- 26-->
+			<zone ulx="535" uly="777" lrx="975" lry="797" xml:id="p16_r27"/>
+			<!-- 27-->
+			<zone ulx="833" uly="787" lrx="915" lry="811" xml:id="p16_r28"/>
+			<!--28-->
+			<zone ulx="400" uly="773" lrx="557" lry="809" xml:id="p16_r27annsx"/>
+			<!-- parte a sx in basso-->
+        </surface>
+    </facsimile>
+
+		<!--codifica pagina 15-->
+			<!--indicazioni sugli errori e le cancellazioni: alcuni errori e cancellazioni sono stati coidficati 
+			utilizzando elementi e attributi diversi a seconda delle preferenze tecniche e stilistiche delle autrici, tra questi gap per la cancellazione 
+			e l'eliminazione di una porzione di testo , del per le parole cancellate, unclear per le parole illeggibili -->
+        <text xml:lang="fr" xml:id="text-fr" subtype="manuscript">
+            <body>
+            <div type="pagina" n="15">
+                <pb n="15" facs="#Pag15"/> <!-- pb page beginning-->
+                <ab type="pericope" n="1" xml:id="Par1_P15"> 
+                    <lb facs="#P15_R1"/>
+                     C’est de cette qualité de <term ref="#SH">science historique </term> 
+                    <lb facs="#P15_R2"/> 
+                     que se réclamera toute espèce d’études 
+                    <lb facs="P15_R3" />
+                     linguistiques pour figurer dans une <orgName> Facultè des 
+                    <lb facs="P15_R4" />
+                      Lettres. </orgName>
+                </ab> 
+                <ab type="pericope" n="2" xml:id="Par2_P15"> 
+                      Comme c’est particulièrement aussi   <!--parle cancellate dall'autore e poi riscritte correttamente dopo, cio che ha scritto è comunque leggibile un rigo sotto-->
+                      <lb facs="P15_R5" />
+                      sur cette idée  d’histoire <del rend="overstrike"> <choice>  <unclear reason="illegible"> qu è <!--cancellato dall'autore-->
+                      'il insie </unclear> </choice> </del> qu’il  
+                      <lb facs="P15_R6"/> 
+                      est insisté dans le titre de ce <hi rend="superscript"> c </hi> ours - alors <!-- hyphenation codifica i trattini, superscript indica un carattere scritto piu alto rispetto agli altri circostanti-->
+                      <lb facs="P15_R7"/>
+                      que d’autres dénominations comme <orgName>  <hi rend="underline"> <choice> <abbr cert="high" type="suspension"> Gr </abbr> <!--parola sottolineata dall'autore-->
+                      <expan> Grammaire </expan> </choice> comparée </hi> </orgName>
+                      <lb facs="P15_R8"/> 
+                      sont plus usitées  -  je crois <hi rend="superscript"> d </hi> evoir essayer  
+					  <add place="margin"> <del hand="#FDS" rend="overstrike"> <unclear reason="illegible" cert="low"> </unclear> </del> </add> <!--NOTA A MARGINE SX-->
+                      <lb facs="P15_R9"/> 
+                      de faire le commentaire,<del hand="#FDS"> <unclear reason="illegible"> </unclear> </del> nécessairement   <!--parola illeggibile perchè l'autore ha cancellato con un rigo spesso e non si legge quello che è scritto sotto-->
+                      <lb facs="P15_R10"/> 
+                      très abrégé et incomplet, du sens qu’a ce
+                      <lb facs="P15_R11"/> 
+                      mot <term ref="#H"> histoire </term> pour le linguiste.
+                </ab>
+                <ab type="pericope" n="3" xml:id="Par3_P15"> C’est sur ce sujet 
+                        <lb facs="P15_R12"/> 
+                        que j’aurais voulu solliciter votre attention presque
+                        <lb facs="P15_R13"/> 
+                        sans autre préambule, car il contient <hi rend="supraline"> tout </hi> :plus  <!--supraline indica che la parola è scritta con una linea sopra-->
+                        <lb facs="P15_R14"/> 
+                        on étudie la <term ref="#LAN"> langue </term>, plus on arrive à <del hand="#FDS" rend="overstrike"> mieux </del> se  <!--cancellato con un rigo ma comunque leggibile-->
+                         <lb facs="P15_R15"/> 
+                        pénétrer de <del hand="#FDS"> <unclear reason="illegible"> </unclear> </del> ce fait que <hi rend="underline"> tout </hi> dans la <term ref="#LAN"> langue </term>  <!--unclear perchè illeggibile-->
+                        <lb facs="P15_R16"/> 
+                        <hi rend="underline"> est histoire </hi>, <choice> <abbr cert="high" type="acronym"> c. à. d. </abbr> <expan> c’est- à-dire </expan> </choice> 
+                        qu’elle est un objet <choice> <sic cert="low"> de cousi </sic> </choice>  <!--cert indica la certezza con cui noi codifichiamo una data parola-->
+                        <lb facs="P15_R17"/> 
+                         <term ref="#OAH"> <corr> <add place="margin"> d’analyse </add> </corr> historique </term> 
+                         <choice><sic cert="low"> de'retion </sic> </choice>  historique, et non d'  <sic cert="high"> considèration </sic> 
+                         <lb facs="P15_R18"/> <term ref="#AA"> <corr> <add place="margin"> analyse </add> abstraite, </corr>  </term>qu’elle se compose de <term ref="#F"> <hi rend="underline"> faits </hi> </term>, et non de
+                         <lb facs="P15_R19"/> <term ref="#L"> <hi rend="underline"> lois </hi> </term> , que tout ce qui semble <term ref="#O"> <hi rend="underline"> organique </hi> </term> dans le <term ref="#LING"> langage </term> 
+                         <lb facs="P15_R20"/> est en réalité <term ref="#C"> contingent </term> et complètement <term ref="#ACC"> accidentel. </term> 
+                </ab> 
+                <ab type="pericope" n="4" xml:id="Par4_P15">
+                         <lb facs="P15_R21"/> <add place="inspace"> Il y a une première manière un peu superficielle </add> <!--scritto in mezzo al foglio rispetto alle righe circostanti-->
+                         <lb facs="P15_R22"/> d'entendre que la <gap quantity="5" unit="chars" reason="cancelled"> </gap> <term ref="#LINGQ"> linguistique </term> est une <hi rend="underline"> science </hi> his  - <!--quantity indica il numero  di parole che sono state cancellate--> 
+                         <lb facs="P15_R23"/>  = torique c'est celle qui consiste à observer <gap quantity="7" unit="chars" reason="unclear"> </gap>
+                         
+                </ab> 
+            </div> 
+			<!-- codifica pagina 16-->
+            <div type="pagina" n="16">
+                <pb n="16" facs="#Pag16"/> <!-- pb page beginning-->
+                 <ab type="pericope" n="1" xml:id="Par1_P16"> 
+                    <lb facs="#P16_R1"/>   
+                    qu'on ne connaît pas complètement un peuple
+                     <lb facs="#P16_R2"/>   
+                     sans connaître sa <term ref="#LAN"> langue </term> ou en avoir une idée; 
+                     <lb facs="#P16_R3"/>
+                     que la <term ref="#LAN"> langue </term> est une partie importante du bagage
+                       <lb facs="#P16_R4"/>
+                       des nations et contribue à caractériser <hi rend="underline"> une <term ref="#EP"> époque </term> </hi> ,
+                        <lb facs="#P16_R5"/>
+                       une société. <del rend="overstrike" hand="#FDS"> <gap reason="cancelled"> </gap> </del> 
+                        <lb facs="#P16_R6"/> 
+                </ab> 
+                <ab type="pericope" n="2" xml:id="Par2_P16">  
+                         <del rend="overstrike" hand="#FDS"> <gap quantity="5" unit="chars" reason="cancelled"> </gap> </del> La présence <term ref="#IDM"> d'idiomes </term> celtiques en <placeName> <geogName> Gaulle </geogName> </placeName> <!--<abbr type="geographic"> Gaule </abbr> --> 
+                        <lb facs="#P16_R7"/> et leur disparition lente sous l'influence de la
+                        <lb facs="#P16_R8"/> <placeName period="#imperoRomano"> domination romaine </placeName> constituent <choice> <abbr> p. ex </abbr> <expan> par exemple </expan> </choice> de  <!--period indica il periodo storico di riferimento-->
+                        <lb facs="#P16_R9"/> grands <term ref="#FA"> faits </term> historiques. 
+                </ab> 
+                <ab type="pericope" n="3" xml:id="Par3_P16">
+                        C'est là le <term ref="#PDV"> point de 
+                        <lb facs="#P16_R10"/> vue </term> vue de la <hi rend="underline"> <term ref="#LAN"> Langue</term> </hi> <hi rend="underline"> dans </hi> l' <hi rend="underline"> <term ref="#HI"> Histoire </term> </hi> , mais ce
+                        <lb facs="#P16_R11"/> n'est pas le <term ref="#PDV"> point de vue de </term> <hi rend="underline"> <term ref="#HDL"> l'histoire de la langue.</term> </hi> 
+                </ab> 
+                <ab type="pericope" n="4" xml:id="Par4_P16">
+                        <lb facs="#P16_R12"/> Il est évident que par mille <term ref="#FA"> faits </term> la <term ref="#LAN"> langue </term> in 
+                        <lb facs="#P16_R13"/> teresserà l'<term ref="#HEN"> historien </term>; j'ajoute même que l'<term ref="#HEN"> historien </term> 
+                        <lb facs="#P16_R14"/> ien ne s'y intéresse <choice> <abbr> pt </abbr> <expan> peut </expan> </choice> etre pas toujours assez.
+                </ab> 
+                <ab type="pericope" n="5" xml:id="Par5_P16">
+                        <lb facs="#P16_R15"/> Il y a très peu de personnes <add place="above"> en <placeName> <geogName> France </geogName> </placeName></add> qui <del rend="overstrike"> <gap reason="cancelled"> </gap> </del> 
+                        <lb facs="#P16_R16"/> <del rend="overstrike" hand="#FDS"> <gap reason="cancelled"> </gap> </del>  songent <choice> <abbr> p. ex </abbr> <expan> par exemple </expan> </choice> à se demander quelle <term ref="#LAN"> langue </term> on
+                        <lb facs="#P16_R17"/> parlait à la <placeName period="#imperoRomano"> cour de <persName> <forename> Charlemagne </forename> </persName> </placeName> - était-ce du roman 
+                        <lb facs="#P16_R18"/> ou de l'allemand - et, si c'était l'allemand, était-ce  <del rend="overstrike" hand="#FDS"> <gap reason="cancelled"> </gap> </del> 
+                        <lb facs="#P16_R19"/> un <term ref="#DIA"> dialecte </term> disparu ou l'un des  <term ref="#DIA"> dia <lb/> 
+                        <lb facs="#P16_R20"/> lectes </term> qui se perpétuent aujourd'hui ?
+                </ab>
+                <ab type="pericope" n="6" xml:id="Par6_P16"> 
+                        <lb facs="#P16_R20"/>Il y a très peu d'<term ref="#HEN"> <hi rend="sling-below"> historiens </hi> </term>
+                        <lb facs="#P16_R21"/> qui remarquent que les noms des chefs <choice> <orig> <hi rend="superscript"> huns </hi> </orig> <reg> Huns </reg> </choice> 
+                        <lb facs="#P16_R22"/> comme <term ref="#ATT"> <persName> <forename> Attila </forename> </persName> </term>, ne sont pas des noms Huns, mais des
+                        <lb facs="#P16_R23"/> noms germaniques, - ce qui est la preuve <del rend="overstrike" hand="#FDS"> <gap reason="cancelled"> </gap> </del>
+                        <lb facs="#P16_R24"/> de tout un <term ref="#EDC"> état de choses </term> fort intéressant;
+                </ab> 
+                <ab type="pericope" n="7" xml:id="Par7_P16"> 
+                        et 
+                        <lb facs="#P16_R25"/> <del rend="overstrike" hand="#FDS"> <gap reason="cancelled"> </gap> </del> en <choice> <abbr> 2° </abbr> <expan> second </expan> </choice> lieu que ces noms germaniques <del rend="overstrike" hand="#FDS"> <gap reason="cancelled"> </gap> </del> <lb/> 
+                        <lb facs="#P16_R26"/> <del rend="overstrike" hand="#FDS"> <gap reason="cancelled"> </gap> </del> ne sont pas du <choice> <abbr> 1° </abbr> <expan> premier </expan> </choice> <term ref="#DIA"> dialecte </term> venu <del rend="overstrike"> <gap reason="cancelled"> </gap> </del>
+                        <lb facs="#P16_R27"/> <add place="margin-left"> <add place= "bottom">  ne sont pas saxons ou <hi rend="sling-above"> Scandinaves, mais </hi> </add> </add>  sont clairement gothiques. 
+                </ab>
+                <ab type="pericope" n="8" xml:id="Par8_P16">
+                 Mais tous ces <term ref="#FA"> faits </term>, grands
+                        <lb facs="#P16_R28"/> <add place="inline"> ou petits, </add> 
+                </ab> 
+              </div> 
+           
+
+			<!--traduzione in italiano di ciascuna pericope-->
+            <div type="traduzione" n="1"> 
+                <ab n="1" corresp="Par1_P15" xml:lang="it">  È a tale qualità di scienza storica che farà 
+                riferimento ogni specie di studio linguistico per figurare in una Facoltà di Lettere . </ab> 
+                <ab n="2" corresp="Par2_P15" xml:lang="it"> Giacché è su quest’idea di storia che s’insiste particolarmente nell’intitolazione di questo corso - 
+                sebbene altre denominazioni, come Grammatica comparata, 
+                siano più usate - credo di dover provare a fare un commento, necessariamente molto risicato e incompleto, sul senso che ha questa parola, 'storia’, 
+                per il linguista. È su questo argomento che avrei voluto sollecitare la vostra attenzione, senza quasi altro preambolo, 
+                perché esso ricomprende tutto: più si studia la lingua, più si arriva a prendere coscienza del fatto che tutto nella lingua è storia, cioè che essa è un oggetto di analisi storica,
+                e non di analisi astratta, che si compone di fatti, e non di leggi, che tutto ciò che sembra organico nel linguaggio è in realtà contingente e completamente accidentale. </ab> 
+                <ab n="3" corresp="Par3_P15" xml:lang="it"> 
+                C’è un primo modo, un po’ superficiale, d’intendere l’idea che la linguistica sia una scienza storica, ed è quello che consiste nell’osservare </ab>
+            </div>
+            <div type="traduzione" n="2">
+                <ab n="1" corresp="Par1_P16" xml:lang="it"> Che non si conosce completamente un popolo senza
+                conoscerne la lingua, o almeno averne un’idea; che la lingua è una parte importante del bagaglio delle nazioni e contribuisce a caratterizzare un’epoca, una società.</ab>
+                <ab n="1" corresp="Par2_P16" xml:lang="it"> La presenza di idiomi celtici in Gallia, e
+                la loro lenta sparizione sotto l’influenza della dominazione romana costituiscono, per esempio,grandi fatti storici.</ab>
+                 <ab n="1" corresp="Par3_P16" xml:lang="it"> 
+                 Quello è il punto di vista della Lingua nella Storia, ma non è il punto di vista della Storia della lingua. </ab> 
+                 <ab n="2" corresp="Par4_P16" xml:lang="it"> 
+                 È evidente che per mille fatti la lingua interesserà lo storico; e aggiungo pure che forse lo storico non se ne interessa sempre quanto dovrebbe. </ab>
+                 <ab n="3" corresp="Par5_P16" xml:lang="it"> 
+                 Ci sono pochissime persone in Francia, che badino, per esempio, a chiedersi quale lingua si parlasse alla corte di Carlo Magno - 
+                 se fosse romanzo o germanico - e, se fosse germanico, se era un dialetto sparito o uno dei dialetti che si perpetuano ancora oggi? </ab>
+                 <ab n="4" corresp="Par6_P16" xml:lang="it"> 
+                 Ci sono pochissimi storici che notino che i nomi dei capi Unni, come Attila, non sono nomi unni, ma germanici, -
+                il che è la prova di tutto uno stato di cose parecchio interessante; </ab>  
+                 <ab n="5" corresp="Par7_P16" xml:lang="it"> 
+                 e in secondo luogo che questi nomi germanici non sono del primo dialetto, non sono sassoni o scandinavi, ma sono chiaramente gotici. </ab>
+                 <ab n="6" corresp="Par8_P16" xml:lang="it">
+                 Ma tutti questi fatti, grandi o piccoli </ab> 
+            </div> 
+           </body>  
+    <back>
+			<!--lista dei termini di riferimento nel testo-->
+    <list type="termRef" rend="bulleted">
+         <label>
+            <term xml:id="SH" xml:lang="fr"> science historique </term>
+            <term ref="SH" xml:lang="it"> scienza storica </term> 
+        </label> 
+            <item n="1"> 
+             <gloss target="#SH" source="https://it.wikipedia.org/wiki/Scienze_ausiliarie_della_storia"> 
+                Scienza storica: Le scienze ausiliarie della storia sono discipline scientifiche che aiutano a valutare e utilizzare le fonti rilevanti per il lavoro storico e la scrittura della storia.
+            </gloss>
+             </item>
+
+        <label>
+            <term xml:id="H" xml:lang="fr"> historie </term>
+            <term ref="H" xml:lang="it"> storia</term> 
+        </label>  
+            <item n="2">
+                    <gloss target="#H" source="https://www.treccani.it/vocabolario/storia/">
+                        Storia: Esposizione ordinata di fatti e avvenimenti umani del passato, quali risultano da un’indagine critica volta ad accertare sia la verità di essi, sia le connessioni reciproche per cui è lecito riconoscere in essi un’unità di sviluppo
+                    </gloss>
+            </item>
+
+        <label> 
+            <term xml:id="LAN" xml:lang="fr"> langue </term>
+            <term ref="LAN" xml:lang="it"> lingua </term> 
+        </label> 
+            <item n="3">
+                <gloss target="#LAN" source="https://it.wikipedia.org/wiki/Lingua_(linguistica)">
+                    Lingua: La lingua è il sistema o forma storicamente determinata attraverso il quale gli appartenenti a una comunità si esprimono e comunicano tra loro attraverso l'uso di un determinato linguaggio ovvero un insieme di segni scritti (simboli) e/o parlati (suoni)
+                </gloss>
+            </item>
+
+        
+        <label> 
+            <term xml:id="OAH" xml:lang="fr"> object d'analyse historique </term>
+            <term ref="OAH" xml:lang="it"> fonte ovvero storiografia </term> 
+        </label> 
+            <item n="4">
+                <gloss target="#OAH" source="https://it.wikipedia.org/wiki/Fonte_(storiografia)"> 
+                    Oggetto dell'analisi storica: ogni testo, oggetto o manufatto da cui si può ricavare una conoscenza del passato
+                </gloss>
+            </item>
+        
+        <label>
+             <term xml:id="AA" xml:lang="fr"> analyse abstraite </term>
+            <term ref="AA" xml:lang="it"> analisi astratta </term> 
+        </label>  
+            <item n="5">
+                <gloss target="#AA" source="https://www.treccani.it/vocabolario/analisi/">
+                    Analisi astratta: Scomposizione di un tutto, astratto, nelle parti che lo costituiscono, soprattutto a scopo di studio
+                </gloss>
+            </item>
+            
+        <label> 
+            <term xml:id="F" xml:lang="fr"> faits </term>
+            <term ref="F" xml:lang="it"> fatti, in senso di leggi </term> 
+        </label>  
+            <item n="6">
+                <gloss target="#F" source="https://www.treccani.it/vocabolario/ricerca/fatto/">
+                 Fatti: Avvenimento, azione, fenomeno, ciò che si compie o si è compiuto
+                </gloss>
+            </item>
+        
+        <label> 
+            <term xml:id="L" xml:lang="fr"> lois </term>
+            <term ref="L" xml:lang="it"> leggi </term> 
+        </label>
+             <item n="7">
+                <gloss target="#L" source="https://www.treccani.it/vocabolario/legge/">
+                    Leggi: Norma o insieme di norme che regolano il comportamento etico e sociale degli uomini: seguire, infrangere la legge    
+                </gloss>             
+            </item>   
+        <label>  
+            <term xml:id="O" xml:lang="fr"> organique </term>
+            <term ref="O" xml:lang="it"> organico </term>
+        </label>
+             <item n="8">
+                    <gloss target="#0" source="https://www.treccani.it/vocabolario/organico/">
+                        Organico: Che si riferisce a, o ha rapporto con, gli organismi viventi, animali o vegetali
+                    </gloss>
+                </item>
+        <label> 
+            <term xml:id="LING" xml:lang="fr"> langage </term>
+            <term ref="LING" xml:lang="it"> linguaggio </term>
+        </label> 
+            <item n="9">
+                    <gloss target="#LING" source="https://www.treccani.it/vocabolario/linguaggio/">
+                        Linguaggio: La capacità e la facoltà, peculiare degli esseri umani, di comunicare pensieri, esprimere sentimenti, e in genere di informare altri esseri sulla propria realtà interiore o sulla realtà esterna
+                    </gloss>
+                </item>
+        <label> 
+            <term xml:id="C" xml:lang="fr"> contingent </term>
+            <term ref="C" xml:lang="it"> contingente </term> 
+        </label> 
+        <item n="10">
+                <gloss target="#C" source="https://www.treccani.it/vocabolario/ricerca/contingente/">
+                        Contingente: Che tocca, tangente, necessario
+                    </gloss>
+        </item>
+        <label> 
+            <term xml:id="ACC" xml:lang="fr"> accidentel </term>
+            <term ref="ACC" xml:lang="it"> accidentale </term>             
+        </label> 
+        <item n="11">
+                <gloss target="#ACC" source="https://www.treccani.it/vocabolario/accidentale/">
+                 Accidentale: Che accade per caso, fortuito, casuale: fatto, circostanza; che s’incontra per caso o raramente, non abituale
+                </gloss>
+        </item>
+
+        <label> 
+            <term xml:id="LINGQ" xml:lang="fr"> linguistique </term>
+            <term ref="LINGQ" xml:lang="it"> linguistico </term>   
+        </label> 
+        <item n="12">
+            <gloss target="#LINQ" source="https://www.treccani.it/vocabolario/linguistica/">
+                    Linguistica: Che riguarda la lingua, il linguaggio, come fatto sociale, o particolari aspetti, caratteri e manifestazioni della lingua
+            </gloss>
+        </item>
+        <label> 
+            <term xml:id="EP" xml:lang="fr"> époque </term>
+            <term ref="EP" xml:lang="it"> epoca </term> 
+        </label> 
+        <item n="13">
+            <gloss target="#EP" source="https://www.treccani.it/vocabolario/epoca/">
+                    Epoca: Periodo storico collegato a grandi avvenimenti
+            </gloss>
+        </item>
+
+        <label> 
+         <term xml:id="IDM" xml:lang="fr"> idiomes </term>
+        <term ref="IDM" xml:lang="it"> idiomi </term> 
+
+        </label> 
+        <item n="14">
+            <gloss target="#IDM" source="https://www.treccani.it/vocabolario/idioma/">
+                Idiomi: Lingua propria e particolare di una nazione
+            </gloss>
+        </item>
+
+        <label>
+         <term xml:id="HEN" xml:lang="fr"> historien </term>
+        <term ref="HEN" xml:lang="it"> storico </term> 
+        </label> 
+        <item n="15">
+            <gloss target="#HEN" source="https://www.treccani.it/vocabolario/storico/">
+                Storico: Scrittore di storia, di opere storiografiche
+            </gloss>
+        </item>
+
+        <label> 
+        <term xml:id="HDL" xml:lang="fr"> historie de la langue </term>
+        <term ref="HDL" xml:lang="it"> storia della lingua </term> 
+        </label>
+        <item n="16">
+            <gloss target="#HDL" source="https://www.treccani.it/enciclopedia/storia-della-lingua_/(Enciclopedia-dell/Italiano)/"> 
+                Storia della lingua: Storia dello sviluppo della lingua di un popolo
+            </gloss>
+        </item>
+
+        <label>
+        <term xml:id="DIA" xml:lang="fr"> dialecte </term>
+        <term ref="DIA" xml:lang="it"> dialetto </term> 
+        </label> 
+        <item n="17">
+            <gloss target="#DIA" source="https://www.treccani.it/vocabolario/dialetto/">
+                Dialetto:  Il dialetto è un sistema linguistico adoperato in un ambito geografico limitato        
+            </gloss>
+        </item>
+
+        <label>
+        <term xml:id="ATT" xml:lang="fr"> Attila </term>
+        <term ref="ATT" xml:lang="it"> Attila </term> 
+        </label>
+        <item n="18">
+             <gloss target="#ATT" source="https://it.wikipedia.org/wiki/Attila">
+                Attila: Condottiero e sovrano unno dal 434 fino alla sua morte. Viene considerato come uno dei sovrani più potenti del mondo e della storia tardo antica.                  
+            </gloss>
+        </item>
+
+        <label>
+        <term xml:id="EDC" xml:lang="fr"> était de choses </term>
+        <term ref="EDC" xml:lang="it"> stato delle cose </term> 
+        </label>
+        <item n="19">
+            <gloss target="#EDC" source="https://sapere.virgilio.it/parole/sinonimi-e-contrari/stato_di_cose">
+                Stato delle cose: Condizione delle situazioni        
+            </gloss>
+        </item>
+    </list> 
+
+
+	<listBibl>
+        <head>Bibliografia</head>
+        <biblStruct xml:id="CorsolingGen" xml:lang="it">
+            <monogr>
+			<author ref="#FDS">
+				<persName>
+					<surname> De Saussure </surname>
+					<forename> Ferdinand </forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname> De  Mauro</surname>
+					<forename>Tullio </forename>
+				</persName>
+			</author>
+			<title type="main"> Corso di linguistica generale</title>
+			<title type="sub">Traduzione commento e note di T. De Mauro</title>
+			<imprint>
+				<publisher> Editori Laterza</publisher>
+				<pubPlace>Bari</pubPlace>
+				<pubPlace> Roma</pubPlace>
+				<date when="1976"> 1976</date>
+			</imprint>
+            </monogr>
+		</biblStruct>
+		<biblStruct xml:id= "CFS62" xml:lang="fr" source="https://www.jstor.org/stable/41427851?seq=1#metadata_info_tab_contents">
+            <monogr>
+			<author xml:id="AC">
+				<surname> Chidichimo </surname>
+				<forename> Alessandro </forename>
+			</author>
+			<title> Cahiers 
+				<persName ref="#FDS"> Ferdinand De Saussure </persName>
+			</title>
+			<imprint>
+				<publisher> Librarie Droz</publisher>
+				<pubPlace> Ginevra </pubPlace>
+				<date when="2009"> 2009</date>
+			</imprint>
+			<biblScope unit="page" from="217" to="312">217-312</biblScope>
+            </monogr>
+		</biblStruct>
+        </listBibl>
+
+        </back>
+    </text>
+</TEI>

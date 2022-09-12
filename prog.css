@@ -1,0 +1,167 @@
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  font-family: "NanumMyeongjo";
+  font-size:17px;
+  line-height:160%;
+  margin-right: 25%;
+  margin-left: 25%;
+
+    
+
+  
+}
+
+h1{
+  text-align: center;
+  font-family: "Cormorant";
+  font-size: 50px;
+  text-shadow: 2px 1px #ffc8a1;
+  white-space: nowrap;
+
+
+}
+
+h3 {
+  font-family: "Aboreto", serif;
+  text-align: center;
+  
+}
+
+h4 {
+  font-family: "Tangerine", serif;
+  text-align: left;
+  font-size: 30px;
+}
+h5{
+  font-family: "Aboreto", serif;
+  text-align: center;
+  
+
+}
+
+
+
+#container2 {
+
+  margin-left:25%;
+  margin-right:25%;
+  
+}
+  
+  
+
+
+
+#navbar {
+  width: 100%;
+  margin: auto;
+  margin-top:20px;
+  position: relative;
+  font-family: "Aboreto", sans-serif;
+}
+
+#navbar ul {
+  padding: 0;
+  margin-top: 0;
+  width: 65%;
+  white-space: nowrap;
+  text-align: center;
+  
+}
+
+
+#navbar li {
+  display: inline;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 15px;
+  width: 100px;
+  padding: 15px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#navbar li a {
+  color: rgb(0, 0, 0);
+  
+}
+
+#navbar li a:hover {
+  color: rgb(255, 255, 255);
+  
+}
+
+#navbar li:hover {
+  background: lightgray;
+  border-radius:20px;
+  opacity: 0.5;
+
+  
+}
+
+#background {
+  z-index: -99;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#tit_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+ 
+  
+}
+
+#pagina15 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px; 
+  height: auto; 
+}
+
+#pagina16 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px; 
+  height: auto; 
+}
+
+#paginavuota {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px; 
+  height: auto; 
+}
+
+
+#button {
+
+  background-color: lightgrey; /* Green */
+  border-radius: 20px;
+  border:none;
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family:"NanumMyeongjo" ;
+  font-weight: bold;
+
+
+
+
+}
+
+
